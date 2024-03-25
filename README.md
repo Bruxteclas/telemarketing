@@ -34,8 +34,8 @@ Se encontrar algum problema ao executar o projeto, verifique se todas as depend�
 
 ## Autores
 
-* Paulo Silva  
-* [@PauloSouza](https://github.com/example)
+* Paulo Souza 
+* [@PauloSouza](https://github.com/)
 
 ## Histórico de versões
 
