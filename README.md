@@ -1,62 +1,60 @@
-# Título do projeto
+# Telemarketing Analysis
 
-Um simples resumo do uso/propósito do projeto.
+Este projeto é uma análise de dados do setor de telemarketing, usando técnicas de visualização e modelagem de dados para entender melhor o comportamento dos clientes e prever suas respostas a campanhas de marketing.
 
 ## Descrição do projeto
 
-Um parágrafo aprofundando mais sobre o seu projeto e uma explicação geral do uso.
+Este projeto visa analisar um conjunto de dados do setor bancário, onde são registradas informações sobre clientes e os resultados de campanhas de telemarketing realizadas pelo banco. A análise inclui visualizações de dados para entender os padrões e tendências dos clientes, bem como a construção de modelos de machine learning para prever se um cliente irá ou não se inscrever em um produto oferecido pelo banco.
 
 ## Utilização
 
-### Dependencias
+### Dependências
 
-* Descreve quaisquer prerequisitos, bibliotecas, versão do SO, etc., que é necessário para rodar o projeto.
-* exemplo. Windows 10...
+* Python 3.6 ou superior
+* Bibliotecas Python: pandas, streamlit, seaborn, matplotlib, xlsxwriter, protobuf, altair
 
 ### Instalação
 
-* Como/aonde fazer o download do seu projeto/programa
-* Quaisquer modificação necessária nos arquivos/diretórios
+1. Faça o download ou clone este repositório para o seu ambiente de trabalho.
+2. Certifique-se de ter todas as dependências instaladas. Você pode instalar as dependências usando o arquivo `requirements.txt`:
+
 
 ### Executando o projeto
 
-* Como rodar o projeto/programa
-* Passo a passo em tópicos (bullet points)
-```
-bloco de código para os comandos necessários
-```
+1. Navegue até o diretório onde o projeto está localizado.
+2. Execute o seguinte comando para iniciar o aplicativo Streamlit: `streamlit run app_7.py`:
+
+
+
+3. O aplicativo Streamlit será iniciado e estará disponível para visualização no navegador.
 
 ## Ajuda
 
-Qualquer ponto importante de problemas ou erros comuns
-```
-comando para rodar se o programa tiver uma informação de ajuda
-```
+Se encontrar algum problema ao executar o projeto, verifique se todas as dependências estão instaladas corretamente e se o ambiente Python está configurado corretamente.
 
 ## Autores
 
-Nomes dos desenvolvedores do projeto e informação para entrar em contato.
+* Paulo Silva  
+* [@PauloSouza](https://github.com/example)
 
-ex. Lucas Serra  
-ex. [@LucasSerra](https://www.linkedin.com/in/lucasserra03/)
+## Histórico de versões
 
-## Histórico de versões.
-
-* 0.2
-	* Ajustes de diversos bugs e otimização
 * 0.1
-    * Primeira versão
+    * Versão inicial do projeto
 
 ## Licença de uso
 
-Esse projeto possui licença de uso [NAME HERE] - acesse o arquivo LICENSE.md para mais detalhes.
+Este projeto possui licença de uso [GNU General Public License v3.0](https://github.com/example/LICENSE.md).
 
 ## Fontes de inspiração
 
-Inspiração, trechos de códigos utilizados, etc.
 * [readme-template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
 * [awesome-readme](https://github.com/matiassingers/awesome-readme)
 * [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
 * [dbader](https://github.com/dbader/readme-template)
 * [zenorocha](https://gist.github.com/zenorocha/4526327)
 * [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+
+## Acesso à aplicação
+
+Acesse a aplicação [aqui](https://telemarketing-3cf0.onrender.com/)
