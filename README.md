@@ -58,3 +58,5 @@ Este projeto possui licença de uso [GNU General Public License v3.0](https://gi
 ## Acesso à aplicação
 
 Acesse a aplicação [aqui](https://telemarketing-3cf0.onrender.com/)
+
+### Obs: Possa ser que a aplicação não esteja mais disponível.
