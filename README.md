@@ -1,62 +1,99 @@
-# Telemarketing Analysis
+# 📊 Telemarketing Analysis App
 
-Este projeto é uma análise de dados do setor de telemarketing, usando técnicas de visualização e modelagem de dados para entender melhor o comportamento dos clientes e prever suas respostas a campanhas de marketing.
+Uma aplicação interativa desenvolvida com **Streamlit** para analisar dados de campanhas de marketing bancário. Permite o upload de arquivos, filtragem dinâmica, visualizações gráficas e exportação de resultados.
 
-## Descrição do projeto
+---
 
-Este projeto visa analisar um conjunto de dados do setor bancário, onde são registradas informações sobre clientes e os resultados de campanhas de telemarketing realizadas pelo banco. A análise inclui visualizações de dados para entender os padrões e tendências dos clientes, bem como a construção de modelos de machine learning para prever se um cliente irá ou não se inscrever em um produto oferecido pelo banco.
+## 📌 Objetivo
 
-## Utilização
+O projeto visa fornecer uma ferramenta visual e interativa para análise de dados de campanhas de telemarketing bancário. Ele permite:
 
-### Dependências
+- Filtrar os dados com base em múltiplas características do cliente.
+- Analisar a taxa de aceitação de propostas de marketing.
+- Comparar a distribuição de respostas antes e depois dos filtros.
+- Baixar os dados filtrados em formato Excel.
 
-* Python 3.6 ou superior
-* Bibliotecas Python: pandas, streamlit, seaborn, matplotlib, xlsxwriter, protobuf, altair
+---
 
-### Instalação
+## 🧰 Tecnologias Utilizadas
 
-1. Faça o download ou clone este repositório para o seu ambiente de trabalho.
-2. Certifique-se de ter todas as dependências instaladas. Você pode instalar as dependências usando o arquivo `requirements.txt`:
+- Python
+- Streamlit
+- Pandas
+- Seaborn
+- Matplotlib
+- Pillow
+- XlsxWriter
+
+---
+
+## 📁 Funcionalidades da Aplicação
+
+### ✅ Upload de Arquivos
+
+- Suporta arquivos `.csv` e `.xlsx`.
+- Carrega os dados automaticamente na aplicação para visualização e análise.
+
+### 🔎 Filtros Interativos
+
+Os filtros disponíveis na barra lateral incluem:
+
+- Faixa etária (via slider)
+- Profissão
+- Estado civil
+- Situação de crédito ("default")
+- Financiamento imobiliário
+- Empréstimo pessoal
+- Meio de contato (telefone, celular, etc.)
+- Mês da campanha
+- Dia da semana
+
+Você pode aplicar múltiplos filtros simultaneamente.
+
+### 📉 Tipos de Gráficos
+
+- **Gráfico de Barras** ou **Gráfico de Pizza**, com seleção dinâmica
+- Comparação da proporção de aceitação (`y`) antes e depois dos filtros aplicados
+
+### 📥 Exportação de Dados
+
+- Exporta os dados filtrados em **Excel**
+- Exporta também as proporções de aceitação (`y`) para os dados brutos e filtrados
+
+---
+
+## 📷 Capturas de Tela
+
+<img width="1905" height="895" alt="Captura de tela 2025-07-20 123316" src="https://github.com/user-attachments/assets/2be473cb-923b-4159-8a32-a17a2391665f" />
 
 
-### Executando o projeto
+---
 
-1. Navegue até o diretório onde o projeto está localizado.
-2. Execute o seguinte comando para iniciar o aplicativo Streamlit: `streamlit run app_7.py`:
+## 📊 Dataset Esperado
 
+O app espera um dataset estruturado como o [conjunto de dados do UCI Bank Marketing](https://archive.ics.uci.edu/ml/datasets/bank+marketing), contendo colunas como:
 
+* `age`
+* `job`
+* `marital`
+* `default`
+* `housing`
+* `loan`
+* `contact`
+* `month`
+* `day_of_week`
+* `y` (resposta final da campanha)
 
-3. O aplicativo Streamlit será iniciado e estará disponível para visualização no navegador.
+---
 
-## Ajuda
+## 📝 Observações
 
-Se encontrar algum problema ao executar o projeto, verifique se todas as dependências estão instaladas corretamente e se o ambiente Python está configurado corretamente.
+* Os dados brutos e os dados filtrados são comparados em tempo real.
+* A interface é responsiva e intuitiva.
+* O app foi projetado para permitir análises rápidas por equipes de marketing, ciência de dados ou gestão.`
 
-## Autores
-
-* Paulo Souza 
-* [@PauloSouza](https://github.com/)
-
-## Histórico de versões
-
-* 0.1
-    * Versão inicial do projeto
-
-## Licença de uso
-
-Este projeto possui licença de uso [GNU General Public License v3.0](https://github.com/example/LICENSE.md).
-
-## Fontes de inspiração
-
-* [readme-template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
 
 ## Acesso à aplicação
 
 Acesse a aplicação [aqui](https://telemarketing-3cf0.onrender.com/)
 
-### Obs: Possa ser que a aplicação não esteja mais disponível.
